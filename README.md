@@ -1,4 +1,4 @@
-Projeto desenvolvido para apredizado de HTML, CSS e Bootstrap
+Projeto desenvolvido para apredizado de HTML, CSS e Javascript.
 
 ## Instituito Proa - Gabriel Ferreira Amorim
 
