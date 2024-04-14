@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Jokenpo com Javascript">
     <title>Jokenpo Online</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
     <div class="conteiner-jogo">
         <div class="moldura-jogo">
@@ -32,8 +35,20 @@
                 <button type="button" class="btn btn-tesoura" onclick="Jogar(3)">Tesoura</button>
             </div>
         </div>
+        <div class="links">
+            <p class="text-final">Desenvolvido por Gabriel Ferreira Amorim</p>
+            <a href="https://github.com/Bieelogrom" target="_blank"><i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/gabrielfav/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="https://www.instagram.com/gabriel.fav/" target="_blank"><i class="ri-instagram-fill"></i></a>
+        </div>
     </div>
+
+    <audio src="IMG/venceu.mp3" id="audio-venceu"></audio>
+    <audio src="IMG/perdeu.mp3" id="audio-perdeu"></audio>
+    <audio src="IMG/empate.mp3" id="audio-empate"></audio>
+
 
     <script src="script.js"></script>
 </body>
+
 </html>
