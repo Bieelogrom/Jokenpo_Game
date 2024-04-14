@@ -99,5 +99,24 @@ body{
 .links > a{
     text-decoration: none;
     color: var(--branco);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links > div > a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+@media screen and (max-width: 1000px) {
+    .moldura-jogo{
+        width: 100%;
+    }
+
+    .controle-jogo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
