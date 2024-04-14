@@ -11,12 +11,25 @@
     <div class="conteiner-jogo">
         <div class="moldura-jogo">
             <div class="tela-jogo">
-
+                <div class="Infos-jogo">
+                    <p>Pontuação Jogador</p>
+                    <p id="ptn-jogador">0</p>
+                    <div class="img-jogo">
+                        <img src="IMG/interrogação.png" alt="Opção do Jogador" height="100" id="img-jog">
+                    </div>
+                </div>
+                <div class="Infos-jogo">
+                    <p>Pontuação Máquina</p>
+                    <p id="ptn-maquina">0</p>
+                    <div class="img-jogo">
+                        <img src="IMG/interrogação.png" alt="Opção da máquina" height="100" id="img-maq">
+                    </div>
+                </div>
             </div>
             <div class="controle-jogo">
-                <button type="button" class="btn btn-pedra">Pedra</button>
-                <button type="button" class="btn btn-papel">Papel</button>
-                <button type="button" class="btn btn-tesoura">Tesoura</button>
+                <button type="button" class="btn btn-pedra" onclick="Jogar(1)">Pedra</button>
+                <button type="button" class="btn btn-papel" onclick="Jogar(2)">Papel</button>
+                <button type="button" class="btn btn-tesoura" onclick="Jogar(3)">Tesoura</button>
             </div>
         </div>
     </div>
